@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/donut.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .donutbackground{
+    background-image: url("img/donut-clicker.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #clicker-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  
+  #donut-section,
+  #auto-clicker-section {
+    margin-bottom: 20px;
+  }
+  
+  #auto-clicker-section button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  #company-info-modal,
+  #developer-info-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+  }
+  #purchase-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  
+  #activate-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .button-section,
+  .reset-clicker-section {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .reset-clicker-section button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+  }
